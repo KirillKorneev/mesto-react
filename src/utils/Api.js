@@ -74,7 +74,7 @@ class Api {
         });
     }
 
-    profileEding(id, profileName, profileJob) { // id = users/me +
+    profileEditing(id, profileName, profileJob) { // id = users/me +
         return fetch(`${this.baseURL}/${id}`, {
             method: 'PATCH',
             headers: this.headers,
@@ -88,7 +88,7 @@ class Api {
         });
     }
 
-    avatarEding(id, avatar) { // id = users/me/avatar +
+    avatarEditing(id, avatar) { // id = users/me/avatar +
         return fetch(`${this.baseURL}/${id}`, {
             method: 'PATCH',
             headers: this.headers,

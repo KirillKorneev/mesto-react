@@ -1,10 +1,7 @@
 import React from 'react';
-//import logo from '.logo.svg';
-//import './App.css';
 import Header from  './Header/Header.js';
 import Main from './Main/Main.js';
 import Footer from './Footer/Footer.js';
-import {api} from '../utils/Api.js';
 
 function App() {
 
@@ -37,7 +34,7 @@ function App() {
   }
 
   return ( 
-    <body className="page">
+    <div className="page">
         <Header />
         <Main 
           onEditAvatar = {handleEditAvatar}
@@ -51,7 +48,7 @@ function App() {
           selectedCard = {selectedCard}
         />
         <Footer />    
-    </body>
+    </div>
   );
 }
 

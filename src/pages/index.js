@@ -10,7 +10,7 @@ import {Api} from '../components/Api.js';
 import {profileJob, profileName, inputChangeName, inputChangeJob, profileEdit, profileAddButton, formList,
         formInfo, initialCards, elements, cardInput, formChangeInfo, formAdd, formElement, formAddCard, addButton,
         profileChangeAvatarButton, changeAvatarButton, profilePhoto, popupUpdatePhoto, popupDeleteAgree} from '../utils/constants.js';
-import avatarImg from '../images/avatar.jpg';
+
 import '../pages/index.css';
 
 ///Абсолютно пустая секция

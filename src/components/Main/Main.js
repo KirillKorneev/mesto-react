@@ -19,7 +19,7 @@ function Main(props) {
     }
 
     function handleCardDelete(card) {
-        props.onChangeCards(card);
+        props.onDeleteCards(card);
     } 
 
     function handleSubmit(name, description) {

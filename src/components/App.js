@@ -45,10 +45,6 @@ function App() {
     }
   } 
 
-  function newCurrentUser() {
-    setCurrentUser(api.getUserInformation('users/me'));
-  }
-
   function handleEditAvatar() {
     setIsEditAvatarPopupOpen(true);
   }
@@ -128,9 +124,8 @@ function App() {
             isAddPlacePopupOpen = {isAddPlacePopupOpen}
             isEditAvatarPopupOpen = {isEditAvatarPopupOpen}
             selectedCard = {selectedCard}
-            onCurrentUser = {newCurrentUser}
             cards = {cards}
-            onChangeCards = {deleteCard}
+            onDeleteCards = {deleteCard}
             onUpdateUser = {handleUserUpdate}
             onUpdateAvatar = {handleAvatarUpdate}
             onCardLike = {handleCardLike}
